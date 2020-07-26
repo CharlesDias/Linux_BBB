@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo DVK531-I2C1-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-I2C2-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-RTC-01 > /sys/devices/bone_capemgr.9/slots
+#echo DVK531-SPI1-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-PWM-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-UART2-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-CAN1-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-KEYS-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-W1-01 > /sys/devices/bone_capemgr.9/slots
+echo DVK531-ADC-01 > /sys/devices/bone_capemgr.9/slots
+
+
+
